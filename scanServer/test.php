@@ -1,0 +1,9 @@
+<?php
+$conn = mysqli_connect('localhost', 'root', '123456', 'test');
+if(!$conn)
+die('连接失败：' . mysql_error());
+else
+echo "连接成功!";
+
+//mysql_close();
+?>
